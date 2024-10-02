@@ -21,8 +21,8 @@ while(page<=6001):
             "Release_Date":validate[1],
             "Movie_Title":validate[2],
             "USD_Production_Budget":validate[3],
-            "USD_Worldwide_Gross":validate[4],
-            "USD_Domestic_Gross":validate[5]
+            "USD_Domestic_Gross":validate[4],
+            "USD_Worldwide_Gross":validate[5]
         }
         li.append(data)
     page+=100
